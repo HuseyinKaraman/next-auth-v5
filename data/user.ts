@@ -17,6 +17,6 @@ export const getUserById = async (id: string) => {
 
         return user;
     } catch (error) {
-        return null;
+        console.log(error);
     }
 };
