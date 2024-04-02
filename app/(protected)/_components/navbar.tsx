@@ -15,22 +15,22 @@ export const Navbar = () => {
                 <Button
                     asChild
                     variant={pathname === "/server" ? "default" : "outline"}>
-                    <Link href="/">Server</Link>
+                    <Link href="/server">Server</Link>
                 </Button>
                 <Button
                     asChild
                     variant={pathname === "/client" ? "default" : "outline"}>
-                    <Link href="/">Client</Link>
+                    <Link href="/client">Client</Link>
                 </Button>
                 <Button
                     asChild
                     variant={pathname === "/admin" ? "default" : "outline"}>
-                    <Link href="/">Admin</Link>
+                    <Link href="/admin">Admin</Link>
                 </Button>
                 <Button
                     asChild
                     variant={pathname === "/settings" ? "default" : "outline"}>
-                    <Link href="/">Settings</Link>
+                    <Link href="/settings">Settings</Link>
                 </Button>
             </div>
            <UserButton />
