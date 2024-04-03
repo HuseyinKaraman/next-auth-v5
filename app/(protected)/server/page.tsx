@@ -1,5 +1,5 @@
 import { UserInfo } from "@/components/user-info";
-import { currentUser } from "@/data/auth";
+import { currentUser } from "@/lib/auth";
 
 const ServerPage = async () => {
     const user = await currentUser();
