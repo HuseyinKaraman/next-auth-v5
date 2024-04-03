@@ -24,7 +24,7 @@ export default function Home() {
         </h1>
         <p className="text-lg text-white">Next.js + NextAuth</p>
         <div className="">
-          <LoginButton>
+          <LoginButton asChild>
             <Button variant={"secondary"} size={"lg"}>Sign In</Button>
           </LoginButton>
         </div>
