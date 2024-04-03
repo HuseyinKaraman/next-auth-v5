@@ -8,14 +8,6 @@ import { getUserById } from "@/data/user";
 import { getTwoFactorConfirmationByUserId } from "@/data/two-factor-confirmation";
 import { getAccountByUserId } from "./data/account";
 
-// https://authjs.dev/getting-started/typescript?frameworks=next#module-augmentation
-// declare module "next-auth" {
-//     interface User {
-//       role: UserRole;
-//       isTwoFactorEnabled: boolean;
-//       isOAuth: boolean;
-//     }
-// }
 
 export const {
     handlers: { GET, POST },

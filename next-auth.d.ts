@@ -7,6 +7,7 @@ export type ExtendedUser = DefaultSession["user"] & {
   isOAuth: boolean;
 };
 
+// https://authjs.dev/getting-started/typescript?frameworks=next#module-augmentation
 declare module "next-auth" {
   interface Session {
     user: ExtendedUser;
